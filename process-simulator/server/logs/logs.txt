@@ -1,0 +1,787 @@
+2026-05-27 11:27:55 - Starting server...
+2026-05-27 11:27:56 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 11:47:00 - Starting server...
+2026-05-27 11:47:01 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:01:15 - HTTP/1.1 POST /run Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*, Content-Type: application/json, Content-Length: 2)
+2026-05-27 12:01:15 - HTTP/1.1 POST /run Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*, Content-Type: application/json, Content-Length: 2)
+2026-05-27 12:01:15 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:01:15 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:01:15 - HTTP/1.1 POST /run Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*, Content-Type: application/json, Content-Length: 2)
+2026-05-27 12:01:15 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:01:15 - HTTP/1.1 POST /run Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*, Content-Type: application/json, Content-Length: 2)
+2026-05-27 12:01:15 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:01:15 - HTTP/1.1 POST /run Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*, Content-Type: application/json, Content-Length: 2)
+2026-05-27 12:01:15 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:01:40 - HTTP/1.1 POST /run Headers(User-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.26100.8457, Content-Type: application/json, Host: localhost:8080, Content-Length: 21, Expect: 100-continue, Connection: Keep-Alive)
+2026-05-27 12:01:40 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:01:40 - HTTP/1.1 POST /run Headers(User-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.26100.8457, Content-Type: application/json, Host: localhost:8080, Content-Length: 21, Expect: 100-continue, Connection: Keep-Alive)
+2026-05-27 12:01:40 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:01:40 - HTTP/1.1 POST /run Headers(User-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.26100.8457, Content-Type: application/json, Host: localhost:8080, Content-Length: 21, Expect: 100-continue, Connection: Keep-Alive)
+2026-05-27 12:01:40 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:01:40 - HTTP/1.1 POST /run Headers(User-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.26100.8457, Content-Type: application/json, Host: localhost:8080, Content-Length: 21, Expect: 100-continue, Connection: Keep-Alive)
+2026-05-27 12:01:40 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:01:40 - HTTP/1.1 POST /run Headers(User-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.26100.8457, Content-Type: application/json, Host: localhost:8080, Content-Length: 21, Expect: 100-continue, Connection: Keep-Alive)
+2026-05-27 12:01:40 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:02:19 - HTTP/1.1 POST /run Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*, Content-Type: application/json, Content-Length: 2)
+2026-05-27 12:02:19 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:02:34 - HTTP/1.1 POST / Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*, Content-Type: application/json, Content-Length: 2)
+2026-05-27 12:02:34 - HTTP/1.1 404 Not Found Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 9)
+2026-05-27 12:05:30 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:05:30 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:05:36 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - print1
+2026-05-27 12:05:37 - HTTP/1.1 GET /run-simulation?cmd=print1 Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:05:37 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 43, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:05:46 - 🔹 Starting processes (2) for user 127.0.0.1:
+ - test
+2026-05-27 12:05:46 - 🔹 Starting processes (3) for user 127.0.0.1:
+ - test
+2026-05-27 12:05:46 - 🔹 Starting processes (4) for user 127.0.0.1:
+ - test
+2026-05-27 12:05:46 - 🔹 Starting processes (5) for user 127.0.0.1:
+ - test
+2026-05-27 12:05:46 - 🔹 Starting processes (6) for user 127.0.0.1:
+ - test
+2026-05-27 12:05:46 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:05:46 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:05:47 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:05:47 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:05:47 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:05:47 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:05:47 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:05:47 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:05:47 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:05:47 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:06:33 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:06:33 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:07:00 - Starting server...
+2026-05-27 12:07:01 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:11:24 - Starting server...
+2026-05-27 12:11:25 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:11:43 - 🔹 Starting processes (2) for user 127.0.0.1:
+ - test
+2026-05-27 12:11:43 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - test
+2026-05-27 12:11:43 - 🔹 Starting processes (3) for user 127.0.0.1:
+ - test
+2026-05-27 12:11:43 - 🔹 Starting processes (4) for user 127.0.0.1:
+ - test
+2026-05-27 12:11:44 - 🔹 Starting processes (5) for user 127.0.0.1:
+ - test
+2026-05-27 12:11:44 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:11:44 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:11:44 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:11:44 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:11:44 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:11:44 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:11:44 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:11:44 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:11:44 - HTTP/1.1 GET /run-simulation?cmd=test Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:11:44 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 41, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:25:41 - Starting server...
+2026-05-27 12:25:42 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:25:58 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:25:58 - HTTP/1.1 GET /run-simulation?cmd=a;b;c Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:25:58 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:25:59 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:26:04 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:26:04 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:27:19 - 🔹 Starting processes (2) for user 127.0.0.1:
+ - a
+2026-05-27 12:27:19 - HTTP/1.1 GET /run-simulation?cmd=a;b;c Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:27:19 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:27:20 - [2] Received request from 127.0.0.1: a
+2026-05-27 12:27:28 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:27:28 - HTTP/1.1 200 OK Headers(Content-Length: 224, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:27:54 - HTTP/1.1 GET /run-simulation?cmd=x;y;z Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:27:54 - 🔹 Starting processes (3) for user 127.0.0.1:
+ - x
+2026-05-27 12:27:54 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:27:54 - [3] Received request from 127.0.0.1: x
+2026-05-27 12:28:03 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:28:03 - HTTP/1.1 200 OK Headers(Content-Length: 283, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:35:00 - Starting server...
+2026-05-27 12:35:00 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:35:15 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:35:15 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:35:21 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:35:21 - HTTP/1.1 200 OK Headers(Content-Length: 139, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:35:53 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:35:53 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:35:53 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:35:54 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:36:03 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:36:03 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:37:20 - Starting server...
+2026-05-27 12:37:21 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:37:40 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:37:40 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:37:41 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:37:41 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:37:41 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:37:41 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:37:50 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:37:50 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:39:25 - Starting server...
+2026-05-27 12:39:25 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:39:38 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:39:38 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:39:38 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:39:38 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:39:38 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:39:39 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:39:44 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:39:44 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:40:29 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:40:29 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:40:29 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:40:29 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:40:29 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:40:29 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:40:33 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:40:33 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:43:04 - Starting server...
+2026-05-27 12:43:05 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:44:14 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:44:14 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:44:15 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:44:15 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:44:15 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:44:15 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:44:18 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:44:18 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:44:32 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:44:32 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:44:32 - HTTP/1.1 GET /run-simulation?cmd=b%20after%20a Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:44:32 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - b after a
+2026-05-27 12:44:32 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:44:32 - [1] Dependency not satisfied for command: b
+2026-05-27 12:44:34 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:44:34 - HTTP/1.1 200 OK Headers(Content-Length: 170, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:44:49 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:44:49 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:44:49 - HTTP/1.1 GET /run-simulation?cmd=a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:44:49 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:44:49 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:44:49 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:44:52 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:44:52 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:45:12 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:45:12 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:45:12 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:45:12 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:45:12 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:45:13 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:45:18 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:45:18 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:47:43 - Starting server...
+2026-05-27 12:47:44 - Error: server couldn't start.
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.AsynchronousServerSocketChannelImpl.bind(AsynchronousServerSocketChannelImpl.java:164)
+	at java.base/java.nio.channels.AsynchronousServerSocketChannel.bind(AsynchronousServerSocketChannel.java:198)
+	at fs2.io.net.SocketGroupCompanionPlatform$AsyncSocketGroup.$anonfun$serverResource$7(SocketGroupPlatform.scala:102)
+	at delay @ fs2.io.net.SocketGroupCompanionPlatform$AsyncSocketGroup.$anonfun$serverResource$6(SocketGroupPlatform.scala:99)
+2026-05-27 12:47:56 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:47:56 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:47:56 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:47:56 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:47:56 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:47:57 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:48:00 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:48:00 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:49:19 - Starting server...
+2026-05-27 12:49:20 - Error: server couldn't start.
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.AsynchronousServerSocketChannelImpl.bind(AsynchronousServerSocketChannelImpl.java:164)
+	at java.base/java.nio.channels.AsynchronousServerSocketChannel.bind(AsynchronousServerSocketChannel.java:198)
+	at fs2.io.net.SocketGroupCompanionPlatform$AsyncSocketGroup.$anonfun$serverResource$7(SocketGroupPlatform.scala:102)
+	at delay @ fs2.io.net.SocketGroupCompanionPlatform$AsyncSocketGroup.$anonfun$serverResource$6(SocketGroupPlatform.scala:99)
+2026-05-27 12:50:35 - Starting server...
+2026-05-27 12:50:35 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:50:49 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:50:49 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:50:49 - === USING COMPLETED-SET VERSION ===
+2026-05-27 12:50:49 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:50:49 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:50:49 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:50:50 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:50:53 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:50:53 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:53:02 - Starting server...
+2026-05-27 12:53:03 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:53:09 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:53:09 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:53:09 - === USING COMPLETED-SET VERSION ===
+2026-05-27 12:53:09 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:53:09 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:53:09 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:53:10 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:53:13 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:53:13 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:55:48 - Starting server...
+2026-05-27 12:55:48 - Ember-Server service bound to address: 127.0.0.1:8080
+2026-05-27 12:55:59 - HTTP/1.1 GET /reset Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:55:59 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:55:59 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:55:59 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:55:59 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:56:00 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:56:03 - HTTP/1.1 GET /status Headers(Host: localhost:8080, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:56:03 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:57:14 - Starting server...
+2026-05-27 12:57:15 - Ember-Server service bound to address: 127.0.0.1:8888
+2026-05-27 12:58:10 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:58:10 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:58:15 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:58:15 - HTTP/1.1 200 OK Headers(Content-Length: 139, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:58:34 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:58:34 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 12:58:34 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:58:34 - [1] Received request from 127.0.0.1: a
+2026-05-27 12:58:42 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:58:42 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:59:05 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:59:05 - 🔹 Starting processes (2) for user 127.0.0.1:
+ - a
+2026-05-27 12:59:05 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:59:06 - [2] Received request from 127.0.0.1: a
+2026-05-27 12:59:10 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:59:10 - HTTP/1.1 200 OK Headers(Content-Length: 224, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:59:26 - HTTP/1.1 GET /run-simulation?cmd=b%20after%20a;c%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:59:26 - 🔹 Starting processes (3) for user 127.0.0.1:
+ - b after a
+2026-05-27 12:59:26 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:59:26 - [3] Dependency not satisfied for command: b
+2026-05-27 12:59:29 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:59:29 - HTTP/1.1 200 OK Headers(Content-Length: 288, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:59:43 - 🔹 Starting processes (4) for user 127.0.0.1:
+ - a
+2026-05-27 12:59:43 - HTTP/1.1 GET /run-simulation?cmd=a;b;c Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:59:43 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 12:59:43 - [4] Received request from 127.0.0.1: a
+2026-05-27 12:59:45 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:59:45 - HTTP/1.1 200 OK Headers(Content-Length: 347, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 12:59:56 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 12:59:56 - HTTP/1.1 200 OK Headers(Content-Length: 347, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:02:18 - Starting server...
+2026-05-27 13:02:19 - Ember-Server service bound to address: 127.0.0.1:8888
+2026-05-27 13:02:34 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:02:34 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:02:34 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:02:34 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 13:02:34 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:02:35 - [1] Received request from 127.0.0.1: a
+2026-05-27 13:02:38 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:02:38 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:06:00 - Starting server...
+2026-05-27 13:06:01 - Ember-Server service bound to address: 127.0.0.1:8888
+2026-05-27 13:06:03 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:06:03 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:06:03 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 13:06:03 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:06:03 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:06:04 - [1] Received request from 127.0.0.1: a
+2026-05-27 13:06:09 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:06:09 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:06:43 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:06:43 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:06:43 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:06:43 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 13:06:43 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:06:44 - [1] Received request from 127.0.0.1: a
+2026-05-27 13:06:47 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:06:47 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:09:31 - Starting server...
+2026-05-27 13:09:32 - Ember-Server service bound to address: 127.0.0.1:8888
+2026-05-27 13:09:49 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:09:49 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:09:49 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 13:09:49 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a;c%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:09:49 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:09:50 - [1] Received request from 127.0.0.1: a
+2026-05-27 13:09:53 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:09:53 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:10:52 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:10:52 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:10:52 - HTTP/1.1 GET /run-simulation?cmd=a%3Bb%20after%20a%3Bc%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:10:52 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+ - b after a
+ - c after b
+2026-05-27 13:10:52 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:10:52 - [1] Received request from 127.0.0.1: a
+2026-05-27 13:10:53 - [1] Received request from 127.0.0.1: b
+2026-05-27 13:10:54 - [1] Received request from 127.0.0.1: c
+2026-05-27 13:10:56 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:10:56 - HTTP/1.1 200 OK Headers(Content-Length: 283, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:17:40 - Starting server...
+2026-05-27 13:17:41 - Ember-Server service bound to address: 127.0.0.1:8888
+2026-05-27 13:17:43 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:17:43 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:17:43 - HTTP/1.1 GET /disable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:17:43 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 19, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:17:43 - [1] Simulation refused for 127.0.0.1: disabled flag
+2026-05-27 13:17:43 - HTTP/1.1 GET /run-simulation?cmd=a%3Bb%20after%20a Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:17:43 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:17:47 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:17:47 - HTTP/1.1 200 OK Headers(Content-Length: 178, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:17:51 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:17:51 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:17:52 - HTTP/1.1 GET /run-simulation?cmd=a%3Bb%20after%20a Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:17:52 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:17:52 - 🔹 Starting processes (2) for user 127.0.0.1:
+ - a
+ - b after a
+2026-05-27 13:17:52 - [2] Received request from 127.0.0.1: a
+2026-05-27 13:17:53 - [2] Received request from 127.0.0.1: b
+2026-05-27 13:17:55 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:17:55 - HTTP/1.1 200 OK Headers(Content-Length: 296, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:30:01 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:30:01 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:30:01 - HTTP/1.1 GET /run-simulation?cmd=a Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:30:01 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 13:30:01 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:30:01 - [1] Received request from 127.0.0.1: a
+2026-05-27 13:30:06 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:30:06 - HTTP/1.1 200 OK Headers(Content-Length: 165, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:31:21 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:31:21 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:31:21 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a@2
+2026-05-27 13:31:21 - HTTP/1.1 GET /run-simulation?cmd=a@2;b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:31:21 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:31:21 - 🔹 Starting processes (2) for user 127.0.0.1:
+ - c
+2026-05-27 13:31:21 - HTTP/1.1 GET /run-simulation?cmd=c;d@1 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:31:21 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:31:21 - 🔹 Starting processes (3) for user 127.0.0.1:
+ - e
+2026-05-27 13:31:21 - HTTP/1.1 GET /run-simulation?cmd=e Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:31:21 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:31:22 - [1] Received request from 127.0.0.1: a@2
+2026-05-27 13:31:22 - [2] Received request from 127.0.0.1: c
+2026-05-27 13:31:22 - [3] Received request from 127.0.0.1: e
+2026-05-27 13:31:25 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:31:25 - HTTP/1.1 200 OK Headers(Content-Length: 285, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:32:32 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:32:32 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:32:33 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:32:33 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:32:39 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:32:39 - HTTP/1.1 200 OK Headers(Content-Length: 139, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:35:34 - HTTP/1.1 GET /run-simulation?cmd=a%3b%20after%20a%3c%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:35:34 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+ - after a< after b
+2026-05-27 13:35:34 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:35:35 - [1] Received request from 127.0.0.1: a
+2026-05-27 13:35:35 - [1] Dependency not satisfied for command: after a<
+2026-05-27 13:36:08 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:36:08 - HTTP/1.1 200 OK Headers(Content-Length: 236, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:42:04 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:42:04 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:42:04 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:42:04 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:42:04 - HTTP/1.1 GET /run-simulation?cmd=a%3Bb%20after%20a%3Bc%20after%20b Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:42:04 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+ - b after a
+ - c after b
+2026-05-27 13:42:04 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:42:05 - [1] Received request from 127.0.0.1: a
+2026-05-27 13:42:05 - [1] Received request from 127.0.0.1: b
+2026-05-27 13:42:06 - [1] Received request from 127.0.0.1: c
+2026-05-27 13:42:09 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:42:09 - HTTP/1.1 200 OK Headers(Content-Length: 283, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 13:43:13 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:43:13 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:43:13 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:43:13 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:43:13 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a@2
+ - b after a
+2026-05-27 13:43:13 - HTTP/1.1 GET /run-simulation?cmd=a@2%3Bb%20after%20a Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:43:13 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 13:43:14 - [1] Received request from 127.0.0.1: a@2
+2026-05-27 13:43:14 - [1] Dependency not satisfied for command: b
+2026-05-27 13:43:19 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 13:43:19 - HTTP/1.1 200 OK Headers(Content-Length: 231, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 15:02:24 - Starting server...
+2026-05-27 15:02:25 - Ember-Server service bound to address: 127.0.0.1:8888
+2026-05-27 15:03:03 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:03:03 - HTTP/1.1 200 OK Headers(Content-Length: 183, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 15:03:03 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:03:03 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:03:04 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:03:04 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:03:04 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a@2
+ - b after a
+2026-05-27 15:03:04 - HTTP/1.1 GET /run-simulation?cmd=a@2%3Bb%20after%20a Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:03:04 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:03:04 - [1] Received request from 127.0.0.1: a@2
+2026-05-27 15:03:04 - [1] Dependency not satisfied for command: b
+2026-05-27 15:03:10 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:03:10 - HTTP/1.1 200 OK Headers(Content-Length: 283, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 15:03:27 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:03:27 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:03:27 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:03:27 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:03:27 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a@2
+ - b after a
+2026-05-27 15:03:27 - HTTP/1.1 GET /run-simulation?cmd=a@2%3Bb%20after%20a Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:03:27 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:03:28 - [1] Received request from 127.0.0.1: a@2
+2026-05-27 15:03:28 - [1] Dependency not satisfied for command: b
+2026-05-27 15:03:33 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:03:33 - HTTP/1.1 200 OK Headers(Content-Length: 283, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 15:19:00 - 🔹 Starting processes (2) for user 127.0.0.1:
+ - a
+2026-05-27 15:19:00 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:19:00 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:19:00 - [2] Received request from 127.0.0.1: a
+2026-05-27 15:19:04 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:19:04 - HTTP/1.1 200 OK Headers(Content-Length: 342, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 15:19:11 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:19:11 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:19:15 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:19:15 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:19:17 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:19:17 - 🔹 Starting processes (1) for user 127.0.0.1:
+ - a
+2026-05-27 15:19:17 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:19:17 - [1] Received request from 127.0.0.1: a
+2026-05-27 15:19:20 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:19:20 - HTTP/1.1 200 OK Headers(Content-Length: 217, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 15:19:52 - 🔹 Starting processes (2) for user 127.0.0.1:
+ - a
+2026-05-27 15:19:52 - HTTP/1.1 GET /run-simulation?cmd=a;b%20after%20a Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:19:52 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 15:19:52 - [2] Received request from 127.0.0.1: a
+2026-05-27 15:19:54 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 15:19:54 - HTTP/1.1 200 OK Headers(Content-Length: 276, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:25:18 - Starting server...
+2026-05-27 17:25:18 - Ember-Server service bound to address: 127.0.0.1:8888
+2026-05-27 17:26:39 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:26:39 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:26:40 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:26:40 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:26:40 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:26:40 - HTTP/1.1 200 OK Headers(Content-Length: 281, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:26:40 - HTTP/1.1 GET /disable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:26:40 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 19, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:26:51 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:26:51 - HTTP/1.1 200 OK Headers(Content-Length: 282, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:26:54 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:26:54 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:26:55 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:26:55 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:26:55 - HTTP/1.1 GET /run-simulation?cmd=print%20%22hello%22%20%40%202 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:26:55 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:26:55 - Starting request [1] from 127.0.0.1 with 1 instruction(s)
+2026-05-27 17:26:57 - [1] Received request from 127.0.0.1: print "hello" (instruction 1)
+2026-05-27 17:27:03 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:27:03 - HTTP/1.1 200 OK Headers(Content-Length: 340, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:27:45 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:27:45 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:27:45 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:27:45 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:27:45 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%3Bprint%20%22C%22%20after%201%2C2 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:27:45 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:27:45 - Starting request [1] from 127.0.0.1 with 3 instruction(s)
+2026-05-27 17:27:47 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 17:27:48 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 17:27:48 - [1] Received request from 127.0.0.1: print "C" (instruction 3)
+2026-05-27 17:27:51 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:27:51 - HTTP/1.1 200 OK Headers(Content-Length: 528, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:32:11 - Starting server...
+2026-05-27 17:32:12 - Ember-Server service bound to address: 127.0.0.1:8888
+2026-05-27 17:32:28 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:32:28 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:32:28 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:32:28 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:32:29 - HTTP/1.1 GET /run-simulation?cmd=print%20%22hello%22%20%40%202 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:32:29 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:32:29 - Starting request [1] from 127.0.0.1 with 1 instruction(s)
+2026-05-27 17:32:31 - [1] Received request from 127.0.0.1: print "hello" (instruction 1)
+2026-05-27 17:32:33 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:32:33 - HTTP/1.1 200 OK Headers(Content-Length: 167, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:32:51 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:32:51 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:32:51 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:32:51 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:32:51 - HTTP/1.1 GET /run-simulation?cmd=print%20%22a%22%20%40%202%3Bprint%20%22b%22%20after%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:32:51 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:32:51 - Starting request [1] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 17:32:53 - [1] Received request from 127.0.0.1: print "a" (instruction 1)
+2026-05-27 17:32:53 - [1] Received request from 127.0.0.1: print "b" (instruction 2)
+2026-05-27 17:32:59 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:32:59 - HTTP/1.1 200 OK Headers(Content-Length: 250, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:33:40 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:33:40 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:33:40 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:33:40 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:33:40 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%3Bprint%20%22C%22%20after%201%2C2 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:33:40 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:33:40 - Starting request [1] from 127.0.0.1 with 3 instruction(s)
+2026-05-27 17:33:42 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 17:33:43 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 17:33:43 - [1] Received request from 127.0.0.1: print "C" (instruction 3)
+2026-05-27 17:33:50 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:33:50 - HTTP/1.1 200 OK Headers(Content-Length: 337, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:34:09 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:34:09 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:34:09 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:34:09 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:34:10 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job-1%22%20%40%202%3Bprint%20%22job-2%22%20%40%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:34:10 - Starting request [1] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 17:34:10 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:34:10 - Starting request [2] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 17:34:10 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job-1%22%20%40%202%3Bprint%20%22job-2%22%20%40%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:34:10 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:34:10 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job-1%22%20%40%202%3Bprint%20%22job-2%22%20%40%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:34:10 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:34:10 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job-1%22%20%40%202%3Bprint%20%22job-2%22%20%40%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:34:10 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:34:10 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job-1%22%20%40%202%3Bprint%20%22job-2%22%20%40%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:34:10 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:34:11 - [1] Received request from 127.0.0.1: print "job-2" (instruction 2)
+2026-05-27 17:34:11 - Starting request [3] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 17:34:11 - Starting request [4] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 17:34:11 - Starting request [5] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 17:34:11 - [2] Received request from 127.0.0.1: print "job-2" (instruction 2)
+2026-05-27 17:34:12 - [1] Received request from 127.0.0.1: print "job-1" (instruction 1)
+2026-05-27 17:34:12 - [2] Received request from 127.0.0.1: print "job-1" (instruction 1)
+2026-05-27 17:34:12 - [3] Received request from 127.0.0.1: print "job-2" (instruction 2)
+2026-05-27 17:34:13 - [3] Received request from 127.0.0.1: print "job-1" (instruction 1)
+2026-05-27 17:34:13 - [4] Received request from 127.0.0.1: print "job-2" (instruction 2)
+2026-05-27 17:34:14 - [4] Received request from 127.0.0.1: print "job-1" (instruction 1)
+2026-05-27 17:34:14 - [5] Received request from 127.0.0.1: print "job-2" (instruction 2)
+2026-05-27 17:34:14 - [5] Received request from 127.0.0.1: print "job-1" (instruction 1)
+2026-05-27 17:34:16 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:34:16 - HTTP/1.1 200 OK Headers(Content-Length: 986, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:35:38 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:35:38 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:35:38 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:35:38 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:35:38 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20after%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:35:38 - Starting request [1] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 17:35:38 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:35:40 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 17:35:40 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 17:35:50 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:35:50 - HTTP/1.1 200 OK Headers(Content-Length: 250, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:48:29 - Starting server...
+2026-05-27 17:48:30 - Ember-Server service bound to address: 127.0.0.1:8888
+2026-05-27 17:48:44 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:48:44 - HTTP/1.1 200 OK Headers(Content-Length: 101, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:49:33 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:49:33 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:49:33 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:49:33 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:49:33 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20after%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:49:33 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:49:34 - Starting request [1] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 17:49:36 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 17:49:36 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 17:49:40 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:49:40 - HTTP/1.1 200 OK Headers(Content-Length: 250, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 17:50:29 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:50:29 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:50:29 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:50:29 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:50:29 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%20after%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:50:29 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 17:50:29 - Starting request [1] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 17:50:31 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 17:50:34 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 17:50:37 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 17:50:37 - HTTP/1.1 200 OK Headers(Content-Length: 250, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:01:07 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:01:07 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:01:07 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:01:07 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:01:08 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%201%3Bprint%20%22C%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:01:08 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:01:08 - Starting request [1] from 127.0.0.1 with 3 instruction(s)
+2026-05-27 19:01:08 - [1] Received request from 127.0.0.1: print "C" (instruction 3)
+2026-05-27 19:01:09 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 19:01:10 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 19:01:13 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:01:13 - HTTP/1.1 200 OK Headers(Content-Length: 337, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:06:51 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:06:51 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:06:52 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:06:52 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:06:52 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%201%3Bprint%20%22C%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:06:52 - Starting request [1] from 127.0.0.1 with 3 instruction(s)
+2026-05-27 19:06:52 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:06:52 - [1] Received request from 127.0.0.1: print "C" (instruction 3)
+2026-05-27 19:06:53 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 19:06:54 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 19:06:59 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:06:59 - HTTP/1.1 200 OK Headers(Content-Length: 337, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:07:54 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:07:54 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:07:54 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:07:54 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:07:55 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20after%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:07:55 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:07:55 - Starting request [1] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 19:07:57 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 19:07:57 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 19:08:01 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:08:01 - HTTP/1.1 200 OK Headers(Content-Length: 250, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:09:06 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:09:06 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:09:06 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:09:06 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:09:07 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%20after%201 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:09:07 - Starting request [1] from 127.0.0.1 with 2 instruction(s)
+2026-05-27 19:09:07 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:09:09 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 19:09:12 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 19:09:16 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:09:16 - HTTP/1.1 200 OK Headers(Content-Length: 250, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:11:14 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:11:14 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:11:14 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:11:14 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:11:15 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%201%3Bprint%20%22B%22%20after%201%3Bprint%20%22C%22%20after%202 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:11:15 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:11:15 - Starting request [1] from 127.0.0.1 with 3 instruction(s)
+2026-05-27 19:11:16 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 19:11:16 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 19:11:16 - [1] Received request from 127.0.0.1: print "C" (instruction 3)
+2026-05-27 19:11:20 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:11:20 - HTTP/1.1 200 OK Headers(Content-Length: 337, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:14:21 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:14:21 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:14:22 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:14:22 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:14:30 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:14:30 - HTTP/1.1 200 OK Headers(Content-Length: 101, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:16:42 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:16:42 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:16:42 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:16:42 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:17:27 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:17:27 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:17:27 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:17:27 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:17:35 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:17:35 - HTTP/1.1 200 OK Headers(Content-Length: 101, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:17:56 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:17:56 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:17:56 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:17:56 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:17:57 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%3Bprint%20%22C%22%20after%201%2C2 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:17:57 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:17:57 - Starting request [1] from 127.0.0.1 with 3 instruction(s)
+2026-05-27 19:17:59 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 19:18:00 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 19:18:00 - [1] Received request from 127.0.0.1: print "C" (instruction 3)
+2026-05-27 19:18:04 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:18:04 - HTTP/1.1 200 OK Headers(Content-Length: 337, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:18:57 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:18:57 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:18:57 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:18:57 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:18:58 - HTTP/1.1 GET /run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%3Bprint%20%22C%22%20after%201%3Bprint%20%22D%22%20after%202 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:18:58 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:18:58 - Starting request [1] from 127.0.0.1 with 4 instruction(s)
+2026-05-27 19:18:58 - [1] Received request from 127.0.0.1: print "B" (instruction 2)
+2026-05-27 19:18:58 - [1] Received request from 127.0.0.1: print "D" (instruction 4)
+2026-05-27 19:19:00 - [1] Received request from 127.0.0.1: print "A" (instruction 1)
+2026-05-27 19:19:00 - [1] Received request from 127.0.0.1: print "C" (instruction 3)
+2026-05-27 19:19:05 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:19:05 - HTTP/1.1 200 OK Headers(Content-Length: 424, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:20:09 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:20:09 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:20:09 - HTTP/1.1 GET /disable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:20:09 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 19, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:20:09 - [1] Simulation refused for 127.0.0.1: disabled flag
+2026-05-27 19:20:09 - HTTP/1.1 GET /run-simulation?cmd=print%20%22blocked%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:20:09 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:20:15 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:20:15 - HTTP/1.1 200 OK Headers(Content-Length: 153, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:20:51 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:20:51 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:20:51 - HTTP/1.1 GET /disable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:20:51 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 19, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:20:51 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:20:51 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:20:52 - HTTP/1.1 GET /run-simulation?cmd=print%20%22ok-again%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:20:52 - Starting request [1] from 127.0.0.1 with 1 instruction(s)
+2026-05-27 19:20:52 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:20:52 - [1] Received request from 127.0.0.1: print "ok-again" (instruction 1)
+2026-05-27 19:20:56 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:20:56 - HTTP/1.1 200 OK Headers(Content-Length: 170, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:23:08 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:08 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:09 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:09 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:09 - HTTP/1.1 GET /run-simulation?cmd=print%20%22a%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:09 - Starting request [1] from 127.0.0.1 with 1 instruction(s)
+2026-05-27 19:23:09 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:09 - [1] Received request from 127.0.0.1: print "a" (instruction 1)
+2026-05-27 19:23:11 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:11 - HTTP/1.1 200 OK Headers(Content-Length: 163, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:23:58 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:58 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:58 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:58 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:59 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job1%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:59 - Starting request [1] from 127.0.0.1 with 1 instruction(s)
+2026-05-27 19:23:59 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:59 - [1] Received request from 127.0.0.1: print "job1" (instruction 1)
+2026-05-27 19:23:59 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job2%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:59 - Starting request [2] from 127.0.0.1 with 1 instruction(s)
+2026-05-27 19:23:59 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:59 - [2] Received request from 127.0.0.1: print "job2" (instruction 1)
+2026-05-27 19:23:59 - Starting request [3] from 127.0.0.1 with 1 instruction(s)
+2026-05-27 19:23:59 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job3%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:59 - [3] Received request from 127.0.0.1: print "job3" (instruction 1)
+2026-05-27 19:23:59 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:59 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job4%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:59 - Starting request [4] from 127.0.0.1 with 1 instruction(s)
+2026-05-27 19:23:59 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:59 - [4] Received request from 127.0.0.1: print "job4" (instruction 1)
+2026-05-27 19:23:59 - Starting request [5] from 127.0.0.1 with 1 instruction(s)
+2026-05-27 19:23:59 - HTTP/1.1 GET /run-simulation?cmd=print%20%22job5%22 Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:23:59 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 35, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:23:59 - [5] Received request from 127.0.0.1: print "job5" (instruction 1)
+2026-05-27 19:24:03 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:24:03 - HTTP/1.1 200 OK Headers(Content-Length: 526, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
+2026-05-27 19:25:31 - HTTP/1.1 GET /reset Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:25:31 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 12, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:25:32 - HTTP/1.1 GET /enable Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:25:32 - HTTP/1.1 200 OK Headers(Content-Type: text/plain; charset=UTF-8, Content-Length: 18, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true)
+2026-05-27 19:25:36 - HTTP/1.1 GET /status Headers(Host: localhost:8888, User-Agent: curl/8.19.0, Accept: */*)
+2026-05-27 19:25:36 - HTTP/1.1 200 OK Headers(Content-Length: 101, Access-Control-Allow-Origin: *, Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, Access-Control-Allow-Headers: Content-Type, Authorization, Access-Control-Allow-Credentials: true, Content-Type: text/html)
