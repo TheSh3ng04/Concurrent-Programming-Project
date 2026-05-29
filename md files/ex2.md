@@ -52,14 +52,14 @@ Nos testes realizados, depois de executar o pedido de desativação do servidor,
 Foi submetido um único pedido ao servidor com uma instrução simples. No estado observado depois da execução, o contador deverá passar a 1 e a lista de resultados deverá incluir o registo correspondente. Este teste confirma o funcionamento básico do contador thread-safe e do registo de resultados no servidor.
 
 ```powershell
-PS C:\Users\black> curl.exe "http://localhost:8888/reset"
+PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
-PS C:\Users\black> curl.exe "http://localhost:8888/enable"
+PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8888/run-simulation?cmd=print%20%22a%22"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22a%22"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 2
-PS C:\Users\black> curl.exe "http://localhost:8888/status"
+PS C:\Users\black> curl.exe "http://localhost:8080/status"
 
 <p><b>counter:</b> 1</p>
 <p><b>simulation enabled:</b> true</p>
@@ -75,15 +75,15 @@ PS C:\Users\black> curl.exe "http://localhost:8888/status"
 Foram enviados vários pedidos quase ao mesmo tempo para o servidor. No estado final, o contador deverá refletir o número total de pedidos aceites e os resultados deverão ficar registados sem perdas. Este teste ilustra que o contador e a estrutura partilhada suportam concorrência de forma correta.
 
 ```powershell
-PS C:\Users\black> curl.exe "http://localhost:8888/reset"
+PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
-PS C:\Users\black> curl.exe "http://localhost:8888/enable"
+PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
 PS C:\Users\black> 1..5 | ForEach-Object {
 >>   $i = $_
 >>   Start-Job -ScriptBlock {
 >>     param($n)
->>     curl.exe "http://localhost:8888/run-simulation?cmd=print%20%22job$n%22"
+>>     curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22job$n%22"
 >>   } -ArgumentList $i
 >> }
 
@@ -97,7 +97,7 @@ Id     Name            PSJobTypeName   State         HasMoreData     Location   
 
 
 PS C:\Users\black> Start-Sleep -Seconds 4
-PS C:\Users\black> curl.exe "http://localhost:8888/status"
+PS C:\Users\black> curl.exe "http://localhost:8080/status"
 
 <p><b>counter:</b> 5</p>
 <p><b>simulation enabled:</b> true</p>
@@ -116,14 +116,14 @@ PS C:\Users\black> curl.exe "http://localhost:8888/status"
 Foi executado um único pedido contendo várias instruções sem dependências entre si. Como não existe cláusula `after`, as instruções podem ser executadas assim que houver threads disponíveis. Este teste mostra que o servidor consegue tratar paralelismo interno dentro do mesmo pedido.
 
 ```powershell
-PS C:\Users\black> curl.exe "http://localhost:8888/reset"
+PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
-PS C:\Users\black> curl.exe "http://localhost:8888/enable"
+PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8888/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%201%3Bprint%20%22C%22"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%201%3Bprint%20%22C%22"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 4
-PS C:\Users\black> curl.exe "http://localhost:8888/status"
+PS C:\Users\black> curl.exe "http://localhost:8080/status"
 
 <p><b>counter:</b> 1</p>
 <p><b>simulation enabled:</b> true</p>
@@ -141,14 +141,14 @@ PS C:\Users\black> curl.exe "http://localhost:8888/status"
 Foi executado um programa em que a segunda instrução depende da primeira. No resultado observado, `B` só deverá ser concluída depois de `A`, respeitando a dependência declarada. Este teste confirma o funcionamento básico da cláusula `after` em dependências lineares.
 
 ```powershell
-PS C:\Users\black> curl.exe "http://localhost:8888/reset"
+PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
-PS C:\Users\black> curl.exe "http://localhost:8888/enable"
+PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8888/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20after%201"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20after%201"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 5
-PS C:\Users\black> curl.exe "http://localhost:8888/status"
+PS C:\Users\black> curl.exe "http://localhost:8080/status"
 
 <p><b>counter:</b> 1</p>
 <p><b>simulation enabled:</b> true</p>
@@ -165,14 +165,14 @@ PS C:\Users\black> curl.exe "http://localhost:8888/status"
 Foi testado um caso em que a segunda instrução depende da primeira e possui também o seu próprio atraso. Assim, o instante de conclusão de `B` deverá surgir claramente depois da conclusão de `A`, o que permite observar de forma mais nítida o efeito combinado de `after` com `@`. Este é um dos testes mais claros para demonstrar que a dependência foi implementada corretamente.
 
 ```powershell
-PS C:\Users\black> curl.exe "http://localhost:8888/reset"
+PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
-PS C:\Users\black> curl.exe "http://localhost:8888/enable"
+PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8888/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%20after%201"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%20after%201"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 7
-PS C:\Users\black> curl.exe "http://localhost:8888/status"
+PS C:\Users\black> curl.exe "http://localhost:8080/status"
 
 <p><b>counter:</b> 1</p>
 <p><b>simulation enabled:</b> true</p>
@@ -189,14 +189,14 @@ PS C:\Users\black> curl.exe "http://localhost:8888/status"
 Foi considerado um cenário em que uma instrução final depende da conclusão de duas instruções anteriores. Neste caso, `C` só deverá começar depois de `A` e `B` terminarem. O teste ilustra corretamente uma sincronização com múltiplos predecessores.
 
 ```powershell
-PS C:\Users\black> curl.exe "http://localhost:8888/reset"
+PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
-PS C:\Users\black> curl.exe "http://localhost:8888/enable"
+PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8888/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%3Bprint%20%22C%22%20after%201%2C2"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%3Bprint%20%22C%22%20after%201%2C2"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 7
-PS C:\Users\black> curl.exe "http://localhost:8888/status"
+PS C:\Users\black> curl.exe "http://localhost:8080/status"
 
 <p><b>counter:</b> 1</p>
 <p><b>simulation enabled:</b> true</p>
@@ -214,14 +214,14 @@ PS C:\Users\black> curl.exe "http://localhost:8888/status"
 Foi testada a funcionalidade adicional de desativação da simulação no servidor. Depois de desativado, um novo pedido não deverá ser executado normalmente, e o estado interno deverá refletir essa recusa. Este exemplo serve para ilustrar a utilização de uma variável partilhada com `@volatile`.
 
 ```powershell
-PS C:\Users\black> curl.exe "http://localhost:8888/reset"
+PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
-PS C:\Users\black> curl.exe "http://localhost:8888/disable"
+PS C:\Users\black> curl.exe "http://localhost:8080/disable"
 Simulation disabled
-PS C:\Users\black> curl.exe "http://localhost:8888/run-simulation?cmd=print%20%22blocked%22"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22blocked%22"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 2
-PS C:\Users\black> curl.exe "http://localhost:8888/status"
+PS C:\Users\black> curl.exe "http://localhost:8080/status"
 
 <p><b>counter:</b> 1</p>
 <p><b>simulation enabled:</b> false</p>
@@ -237,16 +237,16 @@ PS C:\Users\black> curl.exe "http://localhost:8888/status"
 Depois de reativado o servidor, um novo pedido deverá voltar a ser aceite e executado normalmente. Este teste complementa o exemplo anterior e mostra que a flag partilhada é observada corretamente pelas diferentes threads do sistema.
 
 ```powershell
-PS C:\Users\black> curl.exe "http://localhost:8888/reset"
+PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
-PS C:\Users\black> curl.exe "http://localhost:8888/disable"
+PS C:\Users\black> curl.exe "http://localhost:8080/disable"
 Simulation disabled
-PS C:\Users\black> curl.exe "http://localhost:8888/enable"
+PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8888/run-simulation?cmd=print%20%22ok-again%22"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22ok-again%22"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 2
-PS C:\Users\black> curl.exe "http://localhost:8888/status"
+PS C:\Users\black> curl.exe "http://localhost:8080/status"
 
 <p><b>counter:</b> 1</p>
 <p><b>simulation enabled:</b> true</p>

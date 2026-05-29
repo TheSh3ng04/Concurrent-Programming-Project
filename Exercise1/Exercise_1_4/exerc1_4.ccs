@@ -1,0 +1,6 @@
+P1 := send.P2 + recv.P1
+P2 := send.P3 + recv.P2
+P3 := send.P1 + recv.P3
+
+System := P1 | P2 | P3
+System

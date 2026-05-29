@@ -1,0 +1,7 @@
+PAB := lockA?.lockB?.sendAB!.unlockB?.unlockA!.PAB
+PBA := lockB?.lockA?.sendBA!.unlockA?.unlockB!.PBA
+
+LockA := lockA!.unlockA!.LockA
+LockB := lockB!.unlockB!.LockB
+
+(PAB | PBA | LockA | LockB) \ {lockA, lockB, unlockA, unlockB}

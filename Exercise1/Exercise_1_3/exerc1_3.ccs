@@ -1,0 +1,10 @@
+Zenitsu := lockZ?.lockH?.sendZH!.unlockH?.unlockZ!.Zenitsu
+Hinata  := lockH?.lockE?.sendHE!.unlockE?.unlockH!.Hinata
+Eren    := lockE?.lockZ?.sendEZ!.unlockZ?.unlockE!.Eren
+        + lockE?.lockH?.sendEH!.unlockH?.unlockE!.Eren
+
+LockZ := lockZ!.unlockZ!.LockZ
+LockH := lockH!.unlockH!.LockH
+LockE := lockE!.unlockE!.LockE
+
+(Zenitsu | Hinata | Eren | LockZ | LockH | LockE) \ {lockZ, lockH, lockE, unlockZ, unlockH, unlockE}
