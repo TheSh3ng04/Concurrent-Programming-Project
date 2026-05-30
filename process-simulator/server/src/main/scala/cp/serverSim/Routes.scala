@@ -13,7 +13,7 @@ object Routes {
   private val logger = LoggerFactory.getLogger(getClass)
   private val state = new ServerState()
 
-  // Fixed-size worker pool required by the assignment
+  // fixed-size thread pool used to process pending instructions.
   private val pool = Executors.newFixedThreadPool(4)
 
   case class Instruction(
@@ -68,9 +68,7 @@ object Routes {
     })
   }
 
-  // This implementation avoids the broken "single pass foreach" behavior.
-  // It repeatedly schedules newly-ready instructions until all are done.
-  // Each ready instruction runs in the fixed thread pool.
+  //schedules ready instructions and keeps checking for newly unblocked ones.
   private def runProcess(cnt: Int, cmdBlock: String, userIp: String): Unit = {
     if (!state.isSimulationEnabled) {
       val output = s"""[$cnt] Simulation refused for $userIp: disabled flag"""
@@ -94,7 +92,7 @@ object Routes {
     val scheduled = ConcurrentHashMap.newKeySet[Int]()
     val allIndices = instructions.map(_.index).toSet
 
-    // reject references to missing instruction indices
+    // reject dependencies that reference missing instruction indices.
     val invalidDeps = instructions.flatMap(i => i.deps.filterNot(allIndices.contains).map(d => (i.index, d)))
     if (invalidDeps.nonEmpty) {
       invalidDeps.foreach { case (instIdx, depIdx) =>
@@ -139,11 +137,11 @@ object Routes {
       logger.info(output)
       completed.add(inst.index)
 
-      // After completing one instruction, try to schedule newly unlocked ones
+      // try to schedule any instructions that became ready.
       scheduleReadyInstructions()
     }
 
-    // initial wave: instructions with empty deps
+    // initial scheduling pass.
     scheduleReadyInstructions()
   }
 

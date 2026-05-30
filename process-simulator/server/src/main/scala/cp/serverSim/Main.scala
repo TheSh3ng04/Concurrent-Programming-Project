@@ -21,7 +21,7 @@ object Main extends IOApp.Simple {
       EmberServerBuilder
         .default[IO]
         .withHost(ipv4"127.0.0.1")
-        .withPort(port"8888")
+        .withPort(port"8080")
         .withHttpApp(httpApp)
         .build
         .useForever

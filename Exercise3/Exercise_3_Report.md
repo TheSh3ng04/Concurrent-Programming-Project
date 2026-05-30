@@ -149,7 +149,7 @@ A implementação foi testada com uma sequência de mensagens que inclui a cria�
 
 ### Actor Hierarchy
 
-[actor_hierarchy_diagram.png]
+![alt](diagrams/actor_hierarchy_diagram.png)
 
 O diagrama da hierarquia de atores mostra a organização estrutural do sistema em tempo de execução. No topo encontra-se o *ActorSystem*, que contém o ator principal *SellerActor*. Sempre que o stock disponível ultrapassa o limiar definido, este ator cria um novo *ChildSellerActor*, que fica subordinado ao pai na hierarquia.  
 

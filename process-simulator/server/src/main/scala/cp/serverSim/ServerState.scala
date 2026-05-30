@@ -8,17 +8,13 @@ import scala.collection.JavaConverters._
 
 class ServerState() {
 
-  // Thread-safe request counter (Exercise 2.1)
+  //thread-safe counter for the number of received requests.
   private val _counter = new AtomicInteger(0)
 
-  // Lock-free structure storing execution results with timestamps (Exercise 2.2)
-  // ConcurrentLinkedQueue is a lock-free, thread-safe FIFO queue (non-blocking CAS operations)
+  //lock-free queue storing execution results with timestamps.
   private val results = new ConcurrentLinkedQueue[String]()
 
-  // Exercise 2.4: @volatile ensures that writes by one thread are immediately
-  // visible to all other threads, without using locks.
-  // Without @volatile, the JVM may cache _simulationEnabled in a CPU register,
-  // so worker threads might never see the updated value written by the main thread.
+  //flag used to enable/disable simulation across threads.
   @volatile private var _simulationEnabled: Boolean = true
 
   private val formatter = DateTimeFormatter.ofPattern("HH:mm:ss.SSS")
@@ -43,17 +39,17 @@ class ServerState() {
 
   def getResults: List[String] = results.iterator().asScala.toList
 
-def toHtml: String = {
-  val resultsHtml =
-    if (results.isEmpty) "<li>No results yet.</li>"
-    else getResults.map(r => s"<li>$r</li>").mkString("\n")
+  def toHtml: String = {
+    val resultsHtml =
+      if (results.isEmpty) "<li>No results yet.</li>"
+      else getResults.map(r => s"<li>$r</li>").mkString("\n")
 
-  s"""
-     |<p><b>counter:</b> $counter</p>
-     |<p><b>simulation enabled:</b> $isSimulationEnabled</p>
-     |<ul>
-     |$resultsHtml
-     |</ul>
-     |""".stripMargin
-}
+    s"""
+      |<p><b>counter:</b> $counter</p>
+      |<p><b>simulation enabled:</b> $isSimulationEnabled</p>
+      |<ul>
+      |$resultsHtml
+      |</ul>
+      |""".stripMargin
+  }
 }
