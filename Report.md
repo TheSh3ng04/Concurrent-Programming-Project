@@ -91,8 +91,6 @@ Como os três participantes são instâncias do mesmo processo parametrizado, el
 
 Na versão inicial do servidor, o contador de pedidos era atualizado através de uma variável partilhada não sincronizada. Num contexto concorrente, esta abordagem podia originar condições de corrida, uma vez que duas ou mais threads podiam ler o mesmo valor antigo, incrementando localmente e escrever depois o mesmo resultado final, tendo alguma possibilidade de perder atualizações.
 
-Para evidenciar este problema,  enviar vários pedidos quase em simultâneo. Nessa situação, o valor final do contador pode ficar abaixo do número real de pedidos recebidos, e assim, mostra que o estado interno do servidor não é consistente.
-
 Para resolver esta situação, fizemos com que o contador seja substituído por uma estrutura thread-safe baseada em operações atómicas, evitando bloqueios pesados e garante que cada incremento é executado de forma indivisível, mesmo quando vários clientes fazem pedidos ao mesmo tempo.
 
 ## 2.2 Thread pool e estrutura partilhada lock-free
@@ -195,7 +193,7 @@ PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
 PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%201%3Bprint%20%22C%22"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%201%3Bprint%20%22C%22" # print "A" @ 2; print "B" @ 1; print "C"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 4
 PS C:\Users\black> curl.exe "http://localhost:8080/status"
@@ -218,7 +216,7 @@ PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
 PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20after%201"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20after%201" # print "A" @ 2; print "B" after 1
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 5
 PS C:\Users\black> curl.exe "http://localhost:8080/status"
@@ -240,7 +238,7 @@ PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
 PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%20after%201"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%20after%201" # print "A" @ 2; print "B" @ 3 after 1
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 7
 PS C:\Users\black> curl.exe "http://localhost:8080/status"
@@ -253,7 +251,7 @@ PS C:\Users\black> curl.exe "http://localhost:8080/status"
 </ul>
 ```
 
-#### Exemplo 7 — Dependência de junção
+#### Exemplo 6 — Dependência de junção
 
 Foi considerado um cenário em que uma instrução final depende da conclusão de duas instruções anteriores. Neste caso, `C` só deverá começar depois de `A` e `B` terminarem. O teste ilustra corretamente uma sincronização com múltiplos predecessores.
 
@@ -262,7 +260,7 @@ PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
 PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%3Bprint%20%22C%22%20after%201%2C2"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22A%22%20%40%202%3Bprint%20%22B%22%20%40%203%3Bprint%20%22C%22%20after%201%2C2" # print "A" @ 2; print "B" @ 3; print "C" after 1,2
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 7
 PS C:\Users\black> curl.exe "http://localhost:8080/status"
@@ -276,7 +274,7 @@ PS C:\Users\black> curl.exe "http://localhost:8080/status"
 </ul>
 ```
 
-#### Exemplo 9 — Desativação da simulação
+#### Exemplo 7 — Desativação da simulação
 
 Foi testada a funcionalidade adicional de desativação da simulação no servidor. Depois de desativado, um novo pedido não deverá ser executado normalmente, e o estado interno deverá refletir essa recusa. Este exemplo serve para ilustrar a utilização de uma variável partilhada com `@volatile`.
 
@@ -285,7 +283,7 @@ PS C:\Users\black> curl.exe "http://localhost:8080/reset"
 State reset!
 PS C:\Users\black> curl.exe "http://localhost:8080/disable"
 Simulation disabled
-PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22blocked%22"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22blocked%22" # print "blocked"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 2
 PS C:\Users\black> curl.exe "http://localhost:8080/status"
@@ -297,7 +295,7 @@ PS C:\Users\black> curl.exe "http://localhost:8080/status"
 </ul>
 ```
 
-#### Exemplo 10 — Reativação da simulação
+#### Exemplo 8 — Reativação da simulação
 
 Depois de reativado o servidor, um novo pedido deverá voltar a ser aceite e executado normalmente. Este teste complementa o exemplo anterior e mostra que a flag partilhada é observada corretamente pelas diferentes threads do sistema.
 
@@ -308,7 +306,7 @@ PS C:\Users\black> curl.exe "http://localhost:8080/disable"
 Simulation disabled
 PS C:\Users\black> curl.exe "http://localhost:8080/enable"
 Simulation enabled
-PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22ok-again%22"
+PS C:\Users\black> curl.exe "http://localhost:8080/run-simulation?cmd=print%20%22ok-again%22" # print "ok-again"
 [1] Request accepted from 127.0.0.1
 PS C:\Users\black> Start-Sleep -Seconds 2
 PS C:\Users\black> curl.exe "http://localhost:8080/status"
